@@ -11,3 +11,6 @@ class Player:
     def shoot(self):
         self.shots += 1
         
+    def save(self): 
+        self.saves += 1 
+        
