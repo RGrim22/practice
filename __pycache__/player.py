@@ -7,3 +7,7 @@ class Player:
         self.shots = 0
         self.goals = 0
         self.saves = 0
+
+    def shoot(self):
+        self.shots += 1
+        
